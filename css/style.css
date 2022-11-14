@@ -1,0 +1,8 @@
+#box {
+  background-color: rgba(202,40,30,0.5);
+  border: 1px dashed #212;
+}
+
+p {
+  margin: 0;
+}
