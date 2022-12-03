@@ -1,0 +1,43 @@
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+/* Grid items */
+.grid-item {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Main content */
+.main {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+/* Sidebar */
+.sidebar {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  width: 25%;
+}
+
+/* Box model */
+.box {
+  margin: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
