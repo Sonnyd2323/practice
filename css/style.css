@@ -1,31 +1,76 @@
-body {
-  font-family: sans-serif;
-  line-height: 1.5;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    /* Grid container */
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 10px;
+      padding: 10px;
+    }
 
+    /* Grid items */
+    .grid-item {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 20px;
+    }
 
-section {
-  background-color: #ddd;
-}
+    /* Header */
+    header {
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
 
+    /* Main content */
+    .main {
+      padding: 10px;
+      background-color: #f1f1f1;
+    }
 
+    /* Sidebar */
+    .sidebar {
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      width: 25%;
+    }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-section {
-  padding: 20px;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-p {
-  margin-bottom: 0;
-}
+    /* Box model */
+    .box {
+      margin: 10px;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+  </header>
+  <div class="main">
+    <h2>Main Content</h2>
+    <p>Welcome to my website!</p>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+    </div>
+    <div class="box">
+      <h3>Box Model</h3>
+      <p>This is an example of using the box model in CSS.</p>
+    </div>
+  </div>
+  <aside class="sidebar">
+    <h2>Sidebar</h2>
+    <p>This is the sidebar.</p>
+  </aside>
+</body>
+</html>
